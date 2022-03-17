@@ -46,13 +46,3 @@ print("population mean:- ", population_mean)
 
 
 
-def standard_deviation():
-    mean_list = []
-    for i in range(0,1000):
-        set_of_means= random_set_of_mean(100)
-        mean_list.append(set_of_means)
-
-    std_deviation = statistics.stdev(mean_list)
-    print("Standard deviation of sampling distribution:- ", std_deviation)
-
-standard_deviation()
